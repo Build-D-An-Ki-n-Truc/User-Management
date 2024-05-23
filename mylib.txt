@@ -3,3 +3,6 @@ nodemon
 morgan
 express-handlebars
 node-sass
+prettier
+lint-staged
+husky

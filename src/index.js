@@ -35,17 +35,17 @@ app.set('views', path.join(__dirname, 'resource\\views'));
 //Home, search, contact
 
 // Routes init
-route(app);
+    route(app);
 // do path no chi toi src nên nó không tim được file home trong views, cái cần render là layouts của file home
-console.log('PATH:' + __dirname);
+      console.log('PATH:' + __dirname);
 
 // post khi dien form
 // get khi muon hien thi du lieu
 /*function(req, res) {}  */
 // 127.0.0.1
-app.listen(port, () =>
-    console.log(`Example app listening at http://localhost:${port}`),
-);
+  app.listen(port, () =>
+       console.log(`Example app listening at http://localhost:${port}`),
+                    );
 // để server không chạy nữa thì ấn control c
 
 // debug chi chuot vao bien de thay gia tri bien
