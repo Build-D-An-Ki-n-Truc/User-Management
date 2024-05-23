@@ -34,7 +34,7 @@
   },
   
     "lint-staged": {
-      "src/**/*.{js,json,scss}": "prettier --write --tab-width 4 --single-quote --trailing-comma all"
+      "src/**/*.{js,json,scss}": "prettier --tab-width 4 --single-quote --trailing-comma all"
     },
     
       "husky": {
