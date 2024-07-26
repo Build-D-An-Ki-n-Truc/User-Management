@@ -6,3 +6,5 @@ node-sass
 prettier
 lint-staged
 husky
+mongoose
+method-override

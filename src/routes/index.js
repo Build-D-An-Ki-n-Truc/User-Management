@@ -1,5 +1,8 @@
 const newsRouter = require('./news');
 const siteRouter = require('./site');
+const userRouter = require('./users');
+const meRouter = require('./me');
+
 function route(app) {
     app.get(
         '/trang-chu',
@@ -25,6 +28,8 @@ app.get('/news',
     // path cap 1 va function handler
     app.use('/news', newsRouter);
     app.use('/', siteRouter);
+    app.use('/users', userRouter);
+    app.use('/me', meRouter);
     /*
 app.get('/search', 
 (req, res) => {
